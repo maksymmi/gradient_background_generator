@@ -8,13 +8,7 @@ var button = document.querySelector(".button");
 // body.onload = setGradient()
 
 function setGradient() {
-	body.style.background = 
-	"linear-gradient(to right, " 
-	+ color1.value 
-	+ ", " 
-	+ color2.value 
-	+ ")";
-
+	body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
 	css.textContent = body.style.background + ";";
 }
 
